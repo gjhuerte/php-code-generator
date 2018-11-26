@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Modules\Generator;
+namespace Auxilliary\Generator;
 
-use App\Http\Modules\Generator\Interfaces\CodeGenerator;
+use Auxilliary\Generator\Interfaces\Code as CodeGenerator;
 
 class Code implements CodeGenerator
 {
@@ -17,8 +17,12 @@ class Code implements CodeGenerator
      * @param array $args
      * @return string
      */
-    public static function make(array $args, string $delimiter)
+    public static function make(array $args, string $delimiter = null)
     {
+        if (! isset($delimiter)) {
+            $delimiter = self::DASH_SEPARATOR;
+        }
+
         return implode($delimiter, $args);
     }
 }

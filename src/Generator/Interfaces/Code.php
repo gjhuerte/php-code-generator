@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Modules\Generator\Interfaces;
+namespace Auxilliary\Generator\Interfaces;
 
-interface CodeGenerator
+interface Code
 {
 
     /**
