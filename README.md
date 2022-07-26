@@ -16,16 +16,16 @@ composer require gjhuerte/php-code-generator
 
 #### Default Token Generator
 
-![](https://imgur.com/EAbe9tv)
+![](https://imgur.com/EAbe9tv.png)
 
 #### Specifying Custom Format
 
-![](https://imgur.com/QmmKNHx)
-![](https://imgur.com/2uDUVx1)
+![](https://imgur.com/QmmKNHx.png)
+![](https://imgur.com/2uDUVx1.png)
 
 #### You can also add your own unique validation
 
-![](https://imgur.com/jutX9d0)
+![](https://imgur.com/jutX9d0.png)
 
 ## Development setup
 
