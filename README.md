@@ -5,14 +5,26 @@
 
 ## Installation
 
+Requirements
+
+- Composer
+- PHP ^7.0
+
 Composer:
 
 ```sh
 composer require gjhuerte/php-code-generator
 ```
 
+Import the package and your good to go.
+
+```php
+use Aux\Generator\Code;
+
+$code = Code::generate(10);
+```
+
 ## Usage example (Under construction)
----
 
 #### Default Token Generator
 
