@@ -1,6 +1,5 @@
 # PHP Code Generator
-> Wrapper for creating a string code or extracting that can be used all throughout the app.
-
+> Generates a code for you on the go
 
 ![](header.png)
 
@@ -12,13 +11,25 @@ Composer:
 composer require gjhuerte/php-code-generator
 ```
 
-## Usage example
+## Usage example (Under construction)
+---
 
-![](https://i.imgur.com/Bmkj6HJ.png)
+#### Default Token Generator
+
+![](https://imgur.com/EAbe9tv)
+
+#### Specifying Custom Format
+
+![](https://imgur.com/QmmKNHx)
+![](https://imgur.com/2uDUVx1)
+
+#### You can also add your own unique validation
+
+![](https://imgur.com/jutX9d0)
 
 ## Development setup
 
-All you need to do is clone the repository
+All you need to do is clone the repository. Run `composer install` to install all dependencies for testing.
 
 ```sh
 git clone https://github.com/gjhuerte/php-code-generator.git
@@ -26,12 +37,15 @@ git clone https://github.com/gjhuerte/php-code-generator.git
 
 ## Release History
 
+* 1.0.0
+    * More official functions for the generator
+
 * 0.1.0
     * Initial Release
 
 ## Meta
 
-Gabriel Jay Huerte – [@gjhuerte](gjhuerte@gmail.com) – YourEmail@example.com
+Gabriel Jay Huerte – [@gjhuerte](gjhuerte@gmail.com)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
